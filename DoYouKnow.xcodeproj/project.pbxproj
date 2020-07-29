@@ -13,6 +13,12 @@
 		04A51F0224D15E8B00EB2A55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A51F0124D15E8B00EB2A55 /* Assets.xcassets */; };
 		04A51F0524D15E8B00EB2A55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A51F0424D15E8B00EB2A55 /* Preview Assets.xcassets */; };
 		04A51F0824D15E8B00EB2A55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A51F0624D15E8B00EB2A55 /* LaunchScreen.storyboard */; };
+		04A51F1024D1674800EB2A55 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A51F0F24D1674800EB2A55 /* HomeView.swift */; };
+		04A51F1224D179AC00EB2A55 /* ContentViewA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A51F1124D179AC00EB2A55 /* ContentViewA.swift */; };
+		04A51F1424D179BA00EB2A55 /* ContentViewB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A51F1324D179BA00EB2A55 /* ContentViewB.swift */; };
+		04A51F1A24D1831500EB2A55 /* NextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A51F1924D1831500EB2A55 /* NextButton.swift */; };
+		04A51F1C24D1838A00EB2A55 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A51F1B24D1838A00EB2A55 /* BackButton.swift */; };
+		04A51F1F24D1858100EB2A55 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A51F1E24D1858100EB2A55 /* ViewRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		04A51F0424D15E8B00EB2A55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04A51F0724D15E8B00EB2A55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04A51F0924D15E8B00EB2A55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A51F0F24D1674800EB2A55 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		04A51F1124D179AC00EB2A55 /* ContentViewA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewA.swift; sourceTree = "<group>"; };
+		04A51F1324D179BA00EB2A55 /* ContentViewB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewB.swift; sourceTree = "<group>"; };
+		04A51F1924D1831500EB2A55 /* NextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextButton.swift; sourceTree = "<group>"; };
+		04A51F1B24D1838A00EB2A55 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		04A51F1E24D1858100EB2A55 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,12 @@
 			children = (
 				04A51EFB24D15E8800EB2A55 /* AppDelegate.swift */,
 				04A51EFD24D15E8800EB2A55 /* SceneDelegate.swift */,
+				04A51F0F24D1674800EB2A55 /* HomeView.swift */,
+				04A51F1924D1831500EB2A55 /* NextButton.swift */,
+				04A51F1B24D1838A00EB2A55 /* BackButton.swift */,
+				04A51F1E24D1858100EB2A55 /* ViewRouter.swift */,
+				04A51F1124D179AC00EB2A55 /* ContentViewA.swift */,
+				04A51F1324D179BA00EB2A55 /* ContentViewB.swift */,
 				04A51EFF24D15E8800EB2A55 /* ContentView.swift */,
 				04A51F0124D15E8B00EB2A55 /* Assets.xcassets */,
 				04A51F0624D15E8B00EB2A55 /* LaunchScreen.storyboard */,
@@ -146,9 +164,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A51F1F24D1858100EB2A55 /* ViewRouter.swift in Sources */,
+				04A51F1C24D1838A00EB2A55 /* BackButton.swift in Sources */,
 				04A51EFC24D15E8800EB2A55 /* AppDelegate.swift in Sources */,
+				04A51F1024D1674800EB2A55 /* HomeView.swift in Sources */,
+				04A51F1224D179AC00EB2A55 /* ContentViewA.swift in Sources */,
 				04A51EFE24D15E8800EB2A55 /* SceneDelegate.swift in Sources */,
 				04A51F0024D15E8800EB2A55 /* ContentView.swift in Sources */,
+				04A51F1A24D1831500EB2A55 /* NextButton.swift in Sources */,
+				04A51F1424D179BA00EB2A55 /* ContentViewB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
