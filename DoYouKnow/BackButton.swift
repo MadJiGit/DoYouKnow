@@ -12,6 +12,7 @@ import SwiftUI
 struct BackButton : View {
     var body: some View {
         return Text("Back")
+            .font(.title)
             .foregroundColor(.white)
             .frame(width: 200, height: 50)
             .background(Color.blue)

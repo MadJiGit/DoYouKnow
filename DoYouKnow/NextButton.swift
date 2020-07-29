@@ -13,6 +13,7 @@ import SwiftUI
 struct NextButton : View {
     var body: some View {
         return Text("Next")
+            .font(.title)
             .foregroundColor(.white)
             .frame(width: 200, height: 50)
             .background(Color.blue)

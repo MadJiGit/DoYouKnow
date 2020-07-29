@@ -10,14 +10,16 @@ import SwiftUI
 
 struct HomeView: View {
     
-    @ObservedObject var viewRouter: ViewRouter
+    @EnvironmentObject var viewRouter: ViewRouter
 
     var body: some View {
         VStack {
             if viewRouter.currentPage == "page1" {
-                ContentViewA(viewRouter: viewRouter)
+                ContentViewA()
+                    .transition(.scale)
             } else if viewRouter.currentPage == "page2" {
-                ContentViewB(viewRouter: viewRouter)
+                ContentViewB()
+                    .transition(.scale)
             }
         }
     }
@@ -25,6 +27,6 @@ struct HomeView: View {
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView(viewRouter: ViewRouter())
+        HomeView().environmentObject(ViewRouter())
     }
 }
